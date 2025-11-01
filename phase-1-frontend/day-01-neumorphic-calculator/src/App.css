@@ -1,0 +1,125 @@
+/* Main Calculator Container */
+.calculator {
+  background: #e0e5ec;
+  padding: 20px;
+  border-radius: 30px;
+  /* Neumorphic shadow effect - soft raised look */
+  box-shadow: 
+    20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+  width: 320px;
+}
+
+/* Display Screen */
+.display {
+  background: #e0e5ec;
+  padding: 30px 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #333;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* Inset shadow - makes it look pressed in */
+  box-shadow: 
+    inset 8px 8px 16px #bebebe,
+    inset -8px -8px 16px #ffffff;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+/* Buttons Grid Container */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+/* Base Button Style */
+.btn {
+  background: #e0e5ec;
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  /* Raised neumorphic effect */
+  box-shadow: 
+    6px 6px 12px #bebebe,
+    -6px -6px 12px #ffffff;
+  transition: all 0.1s ease;
+  font-weight: 500;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  box-shadow: 
+    8px 8px 16px #bebebe,
+    -8px -8px 16px #ffffff;
+}
+
+/* Button Active (Pressed) Effect */
+.btn:active {
+  /* Pressed in effect */
+  box-shadow: 
+    inset 4px 4px 8px #bebebe,
+    inset -4px -4px 8px #ffffff;
+}
+
+/* Function Buttons (AC, +/-, %) */
+.btn-function {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  color: #666;
+  font-weight: 600;
+}
+
+/* Operator Buttons (+, -, *, /) */
+.btn-operator {
+  background: linear-gradient(145deg, #ff9a76, #ff6b45);
+  color: white;
+  font-weight: 600;
+}
+
+.btn-operator:hover {
+  background: linear-gradient(145deg, #ff8a66, #ff5b35);
+}
+
+/* Equals Button */
+.btn-equals {
+  background: linear-gradient(145deg, #81c784, #66bb6a);
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.btn-equals:hover {
+  background: linear-gradient(145deg, #71b774, #56ab5a);
+}
+
+/* Zero Button (spans 2 columns) */
+.btn-zero {
+  grid-column: span 2;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 400px) {
+  .calculator {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  .display {
+    font-size: 2rem;
+    padding: 20px 15px;
+  }
+  
+  .btn {
+    padding: 20px;
+    font-size: 1.3rem;
+  }
+}
