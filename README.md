@@ -179,7 +179,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 
 ---
 ### **Day 02: Pomodoro Timer with Analytics** ✅
-**Live Demo:** [View Project](https://day-02-pomodoro-timer.vercel.app)  
+**Live Demo:** [View Project](https://60-days-60-projets-ia1ylzwls-pradeep-singh-rawats-projects.vercel.app/)  
 **Tech:** React, CSS3 Animations  
 **Learned:** useEffect hook, Component organization, CSS animations, Glassmorphism
 
