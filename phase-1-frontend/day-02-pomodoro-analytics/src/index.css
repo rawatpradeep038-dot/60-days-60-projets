@@ -1,0 +1,26 @@
+/* ============================================
+   GLOBAL STYLES
+   Purpose: Reset and base styles for entire app
+   ============================================ */
+
+/* Reset all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body base styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 
+               'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Button reset */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
