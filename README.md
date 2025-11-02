@@ -3,9 +3,9 @@
 ## 📌 Overview
 A structured 60-day journey to master Full Stack Development by building 60 unique projects. Each day, one project. Each project, deployed and documented.
 
-**Start Date:** November 2, 2025  
+**Start Date:** November 1, 2025  
 **End Date:** December 31, 2025  
-**Current Day:** 1/60
+**Current Day:** 2/60
 
 ---
 
@@ -73,7 +73,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 - API Integration
 - Browser APIs (Canvas, Audio, File handling)
 
-**Progress:** 1/15 Projects Completed ✅
+**Progress:** 2/15 Projects Completed ✅
 
 ---
 
@@ -149,11 +149,10 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ---
 
 ## 📊 Live Progress Tracker
-
 ```
 ┌─────────────────────────────────────────────────┐
 │  Phase 1: Frontend Mastery                      │
-│  [▓░░░░░░░░░░░░░░░░░░░] 1/15 (6.7%)           │
+│  [▓▓░░░░░░░░░░░░░░░░░░] 2/15 (13.3%)          │
 │                                                  │
 │  Phase 2: Backend Foundations                   │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/15 (0%)              │
@@ -164,9 +163,10 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │  Phase 4: Full Stack Production                 │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/20 (0%)              │
 │                                                  │
-│  Overall Challenge Progress: 1/60 (1.7%)        │
+│  Overall Challenge Progress: 2/60 (3.3%)        │
 └─────────────────────────────────────────────────┘
 ```
+
 
 ---
 
@@ -176,6 +176,12 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 **Live Demo:** [View Project](https://day-01-neumorphic-calculator.vercel.app)  
 **Tech:** React, CSS3  
 **Learned:** Modern UI trends, React useState, Neumorphic design
+
+---
+### **Day 02: Pomodoro Timer with Analytics** ✅
+**Live Demo:** [View Project](https://day-02-pomodoro-timer.vercel.app)  
+**Tech:** React, CSS3 Animations  
+**Learned:** useEffect hook, Component organization, CSS animations, Glassmorphism
 
 ---
 
@@ -210,7 +216,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │
 ├── phase-1-frontend/
 │   ├── day-01-neumorphic-calculator/    ✅
-│   ├── day-02-pomodoro-analytics/       🚧
+│   ├── day-02-pomodoro-analytics/       ✅
 │   ├── day-03-color-palette-generator/  ⏳
 │   └── ... (12 more projects)
 │
@@ -302,8 +308,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 | Metric | Count |
 |--------|-------|
-| **Days Completed** | 1/60 |
-| **Projects Deployed** | 1 |
+| **Days Completed** | 2/60 |
+| **Projects Deployed** | 2 |
 | **Technologies Used** | 3+ |
 | **Lines of Code Written** | 500+ |
 | **Git Commits** | 5+ |
