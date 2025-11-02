@@ -4,7 +4,7 @@
 Build a productivity timer with session tracking, beautiful animations, and modern design patterns.
 
 ## 🚀 Live Demo
-**[View Live Demo](https://day-02-pomodoro-timer.vercel.app)**
+**[View Live Demo](https://60-days-60-projets-ia1ylzwls-pradeep-singh-rawats-projects.vercel.app/))**
 
 ## 🛠️ Tech Stack
 - React 18 (useState, useEffect hooks)
