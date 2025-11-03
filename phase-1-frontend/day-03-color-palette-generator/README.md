@@ -4,7 +4,7 @@
 Build a modern color palette extractor that analyzes images and generates beautiful color schemes with one-click copy and download features.
 
 ## 🚀 Live Demo
-**[View Live Demo](https://day-03-color-palette-generator.vercel.app)**
+**[View Live Demo](https://60-days-60-projets-pallete-generato.vercel.app/)**
 
 ## 🛠️ Tech Stack
 - React 18 (useState)
