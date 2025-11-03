@@ -5,7 +5,7 @@ A structured 60-day journey to master Full Stack Development by building 60 uniq
 
 **Start Date:** November 1, 2025  
 **End Date:** December 31, 2025  
-**Current Day:** 2/60
+**Current Day:** 3/60
 
 ---
 
@@ -73,7 +73,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 - API Integration
 - Browser APIs (Canvas, Audio, File handling)
 
-**Progress:** 2/15 Projects Completed ✅
+**Progress:** 3/15 Projects Completed ✅
 
 ---
 
@@ -152,7 +152,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ```
 ┌─────────────────────────────────────────────────┐
 │  Phase 1: Frontend Mastery                      │
-│  [▓▓░░░░░░░░░░░░░░░░░░] 2/15 (13.3%)          │
+│  [▓▓░░░░░░░░░░░░░░░░░░] 3/15 (13.3%)          │
 │                                                  │
 │  Phase 2: Backend Foundations                   │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/15 (0%)              │
@@ -163,7 +163,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │  Phase 4: Full Stack Production                 │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/20 (0%)              │
 │                                                  │
-│  Overall Challenge Progress: 2/60 (3.3%)        │
+│  Overall Challenge Progress: 3/60 (3.3%)        │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -179,11 +179,15 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 
 ---
 ### **Day 02: Pomodoro Timer with Analytics** ✅
-**Live Demo:** [View Project](https://60-days-60-projets-ia1ylzwls-pradeep-singh-rawats-projects.vercel.app/)  
+**Live Demo:** [View Project](https://day-02-pomodoro-timer.vercel.app)  
 **Tech:** React, CSS3 Animations  
 **Learned:** useEffect hook, Component organization, CSS animations, Glassmorphism
 
 ---
+### **Day 3: Color Palette Generator** ✅
+**Live Demo:** [View Project](https://60-days-60-projets-pallete-generato.vercel.app/)  
+**Tech:** React(useState), CSS3 (Animations, Glassmorphism, Floating Shapes), Canvas API (Image Processing), JavaScript ES6+
+**Learned:** File Handling APIs, Advanced React Patterns, Color Theory & Algorithms, Canvas API Mastery
 
 *More projects will appear here as I complete them...*
 
@@ -217,7 +221,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ├── phase-1-frontend/
 │   ├── day-01-neumorphic-calculator/    ✅
 │   ├── day-02-pomodoro-analytics/       ✅
-│   ├── day-03-color-palette-generator/  ⏳
+│   ├── day-03-color-palette-generator/  ✅
 │   └── ... (12 more projects)
 │
 ├── phase-2-backend/
@@ -308,8 +312,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 | Metric | Count |
 |--------|-------|
-| **Days Completed** | 2/60 |
-| **Projects Deployed** | 2 |
+| **Days Completed** | 3/60 |
+| **Projects Deployed** | 3 |
 | **Technologies Used** | 3+ |
 | **Lines of Code Written** | 500+ |
 | **Git Commits** | 5+ |
