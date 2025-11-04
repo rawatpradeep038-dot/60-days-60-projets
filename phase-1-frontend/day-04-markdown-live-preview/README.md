@@ -441,7 +441,7 @@ function Editor({ markdown, onMarkdownChange }) {
 
 - **Live Demo**: [Click here](https://60-days-60-projets-markdown-live-pr.vercel.app/)
 - **GitHub Repo**: https://github.com/yourusername/60-days-60-projects
-- **Day 03 Project**: https://day-03-color-palette-generator.vercel.app
+- **Day 03 Project**: [live demo(https://60-days-60-projets-pallete-generato.vercel.app/)
 
 ## 📚 Resources Used
 
