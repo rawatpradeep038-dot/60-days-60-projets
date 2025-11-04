@@ -1,0 +1,495 @@
+/* ============================================
+   MARKDOWN LIVE PREVIEW EDITOR - STYLES
+   ============================================ */
+
+/* ========== ROOT VARIABLES ========== */
+:root {
+  /* Dark Mode Colors */
+  --dark-bg: #1a1a2e;
+  --dark-secondary: #16213e;
+  --dark-accent: #0f3460;
+  --dark-text: #e4e4e7;
+  --dark-text-secondary: #a1a1aa;
+  --dark-border: #3f3f46;
+  
+  /* Light Mode Colors */
+  --light-bg: #ffffff;
+  --light-secondary: #f4f4f5;
+  --light-accent: #e4e4e7;
+  --light-text: #18181b;
+  --light-text-secondary: #52525b;
+  --light-border: #d4d4d8;
+  
+  /* Common Colors */
+  --primary: #3b82f6;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+}
+
+/* ========== RESET & BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 
+               'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 
+               'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========== APP CONTAINER ========== */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode */
+.app.dark-mode {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+/* Light Mode */
+.app.light-mode {
+  background-color: var(--light-bg);
+  color: var(--light-text);
+}
+
+/* ========== HEADER ========== */
+.app-header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  border-bottom: 2px solid;
+}
+
+.dark-mode .app-header {
+  border-color: var(--dark-border);
+}
+
+.light-mode .app-header {
+  border-color: var(--light-border);
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, var(--primary), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.app-header p {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+/* ========== TOOLBAR ========== */
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid;
+}
+
+.dark-mode .toolbar {
+  background-color: var(--dark-secondary);
+  border-color: var(--dark-border);
+}
+
+.light-mode .toolbar {
+  background-color: var(--light-secondary);
+  border-color: var(--light-border);
+}
+
+.toolbar-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dark-mode .toolbar-btn {
+  background-color: var(--dark-accent);
+  color: var(--dark-text);
+}
+
+.light-mode .toolbar-btn {
+  background-color: var(--light-accent);
+  color: var(--light-text);
+}
+
+.toolbar-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.toolbar-btn:active {
+  transform: translateY(0);
+}
+
+.copy-btn:hover {
+  background-color: var(--success);
+  color: white;
+}
+
+.download-btn:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.theme-btn:hover {
+  background-color: var(--warning);
+  color: white;
+}
+
+/* ========== MAIN CONTENT - SPLIT PANE ========== */
+.main-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  overflow: hidden;
+}
+
+/* ========== EDITOR (LEFT SIDE) ========== */
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid;
+  height: calc(100vh - 180px);
+}
+
+.dark-mode .editor-container {
+  background-color: var(--dark-secondary);
+  border-color: var(--dark-border);
+}
+
+.light-mode .editor-container {
+  background-color: var(--light-secondary);
+  border-color: var(--light-border);
+}
+
+.editor-header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid;
+}
+
+.dark-mode .editor-header {
+  background-color: var(--dark-accent);
+  border-color: var(--dark-border);
+}
+
+.light-mode .editor-header {
+  background-color: var(--light-accent);
+  border-color: var(--light-border);
+}
+
+.editor-header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.markdown-textarea {
+  flex: 1;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  background-color: transparent;
+  color: inherit;
+}
+
+.markdown-textarea::placeholder {
+  opacity: 0.5;
+}
+
+/* ========== PREVIEW (RIGHT SIDE) ========== */
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 180px);
+  overflow: hidden;
+}
+
+.dark-mode .preview-container {
+  background-color: var(--dark-bg);
+}
+
+.light-mode .preview-container {
+  background-color: var(--light-bg);
+}
+
+.preview-header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid;
+}
+
+.dark-mode .preview-header {
+  background-color: var(--dark-accent);
+  border-color: var(--dark-border);
+}
+
+.light-mode .preview-header {
+  background-color: var(--light-accent);
+  border-color: var(--light-border);
+}
+
+.preview-header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.preview-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  line-height: 1.8;
+}
+
+/* Scrollbar Styling */
+.preview-content::-webkit-scrollbar,
+.markdown-textarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dark-mode .preview-content::-webkit-scrollbar-track,
+.dark-mode .markdown-textarea::-webkit-scrollbar-track {
+  background: var(--dark-secondary);
+}
+
+.light-mode .preview-content::-webkit-scrollbar-track,
+.light-mode .markdown-textarea::-webkit-scrollbar-track {
+  background: var(--light-secondary);
+}
+
+.preview-content::-webkit-scrollbar-thumb,
+.markdown-textarea::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+.preview-content::-webkit-scrollbar-thumb:hover,
+.markdown-textarea::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* ========== MARKDOWN STYLING IN PREVIEW ========== */
+.preview-content h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary);
+}
+
+.preview-content h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0 1rem;
+  color: var(--primary);
+}
+
+.preview-content h3 {
+  font-size: 1.5rem;
+  margin: 1.2rem 0 0.8rem;
+}
+
+.preview-content h4 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.6rem;
+}
+
+.preview-content p {
+  margin: 1rem 0;
+}
+
+.preview-content strong {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.preview-content em {
+  font-style: italic;
+  color: #8b5cf6;
+}
+
+.preview-content ul,
+.preview-content ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.preview-content li {
+  margin: 0.5rem 0;
+}
+
+.preview-content a {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--primary);
+  transition: all 0.3s ease;
+}
+
+.preview-content a:hover {
+  background-color: var(--primary);
+  color: white;
+  padding: 0 4px;
+}
+
+.preview-content code {
+  background-color: var(--dark-accent);
+  color: #fbbf24;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+
+.preview-content pre {
+  background-color: var(--dark-accent);
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.preview-content pre code {
+  background-color: transparent;
+  padding: 0;
+  color: #e4e4e7;
+}
+
+.preview-content blockquote {
+  border-left: 4px solid var(--primary);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.preview-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.preview-content hr {
+  border: none;
+  border-top: 2px solid;
+  margin: 2rem 0;
+}
+
+.dark-mode .preview-content hr {
+  border-color: var(--dark-border);
+}
+
+.light-mode .preview-content hr {
+  border-color: var(--light-border);
+}
+
+.preview-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.preview-content th,
+.preview-content td {
+  border: 1px solid;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.dark-mode .preview-content th,
+.dark-mode .preview-content td {
+  border-color: var(--dark-border);
+}
+
+.light-mode .preview-content th,
+.light-mode .preview-content td {
+  border-color: var(--light-border);
+}
+
+.preview-content th {
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+}
+
+.dark-mode .preview-content tr:nth-child(even) {
+  background-color: var(--dark-secondary);
+}
+
+.light-mode .preview-content tr:nth-child(even) {
+  background-color: var(--light-secondary);
+}
+
+/* ========== FOOTER ========== */
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.dark-mode .app-footer {
+  background-color: var(--dark-secondary);
+  border-color: var(--dark-border);
+}
+
+.light-mode .app-footer {
+  background-color: var(--light-secondary);
+  border-color: var(--light-border);
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  .editor-container {
+    border-right: none;
+    border-bottom: 2px solid;
+    height: 50vh;
+  }
+  
+  .dark-mode .editor-container {
+    border-color: var(--dark-border);
+  }
+  
+  .light-mode .editor-container {
+    border-color: var(--light-border);
+  }
+  
+  .preview-container {
+    height: 50vh;
+  }
+  
+  .app-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .toolbar {
+    flex-wrap: wrap;
+  }
+}
