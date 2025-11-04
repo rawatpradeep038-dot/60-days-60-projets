@@ -5,7 +5,7 @@ A structured 60-day journey to master Full Stack Development by building 60 uniq
 
 **Start Date:** November 1, 2025  
 **End Date:** December 31, 2025  
-**Current Day:** 3/60
+**Current Day:** 4/60
 
 ---
 
@@ -73,7 +73,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 - API Integration
 - Browser APIs (Canvas, Audio, File handling)
 
-**Progress:** 3/15 Projects Completed ✅
+**Progress:** 4/15 Projects Completed ✅
 
 ---
 
@@ -152,7 +152,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ```
 ┌─────────────────────────────────────────────────┐
 │  Phase 1: Frontend Mastery                      │
-│  [▓▓░░░░░░░░░░░░░░░░░░] 3/15 (13.3%)          │
+│  [▓▓▓▓░░░░░░░░░░░░░░░░] 4/15 (26.7%)          │
 │                                                  │
 │  Phase 2: Backend Foundations                   │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/15 (0%)              │
@@ -163,7 +163,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │  Phase 4: Full Stack Production                 │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/20 (0%)              │
 │                                                  │
-│  Overall Challenge Progress: 3/60 (3.3%)        │
+│  Overall Challenge Progress: 4/60 (6.7%)        │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -184,10 +184,18 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 **Learned:** useEffect hook, Component organization, CSS animations, Glassmorphism
 
 ---
-### **Day 3: Color Palette Generator** ✅
+### **Day 03: Color Palette Generator** ✅
 **Live Demo:** [View Project](https://60-days-60-projets-pallete-generato.vercel.app/)  
-**Tech:** React(useState), CSS3 (Animations, Glassmorphism, Floating Shapes), Canvas API (Image Processing), JavaScript ES6+
+**Tech:** React (useState), Canvas API, CSS3 (Animations, Glassmorphism, Floating Shapes), JavaScript ES6+  
 **Learned:** File Handling APIs, Advanced React Patterns, Color Theory & Algorithms, Canvas API Mastery
+
+---
+### **Day 04: Markdown Live Preview Editor** ✅
+**Live Demo:** [View Project](https://60-days-60-projets-markdown-live-pr.vercel.app/)   
+**Tech:** React (useState, useEffect), Marked.js, DOMPurify, LocalStorage API, CSS3  
+**Learned:** Markdown parsing, XSS prevention, File operations (Blob, Download), Clipboard API, Split-pane layouts, Theme switching
+
+---
 
 *More projects will appear here as I complete them...*
 
@@ -219,21 +227,22 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 60-days-60-projects/
 │
 ├── phase-1-frontend/
-│   ├── day-01-neumorphic-calculator/    ✅
-│   ├── day-02-pomodoro-analytics/       ✅
-│   ├── day-03-color-palette-generator/  ✅
-│   └── ... (12 more projects)
+│   ├── day-01-neumorphic-calculator/       ✅
+│   ├── day-02-pomodoro-analytics/          ✅
+│   ├── day-03-color-palette-generator/     ✅
+│   ├── day-04-markdown-live-preview/       ✅
+│   └── ... (11 more projects)
 │
 ├── phase-2-backend/
-│   ├── day-16-url-shortener-api/        ⏳
+│   ├── day-16-url-shortener-api/           ⏳
 │   └── ... (14 more projects)
 │
 ├── phase-3-database-auth/
-│   ├── day-31-user-auth-system/         ⏳
+│   ├── day-31-user-auth-system/            ⏳
 │   └── ... (9 more projects)
 │
 ├── phase-4-fullstack/
-│   ├── day-41-job-tracker/              ⏳
+│   ├── day-41-job-tracker/                 ⏳
 │   └── ... (19 more projects)
 │
 └── README.md 
@@ -248,7 +257,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 By the end of this challenge, I will have mastered:
 
 ### Technical Skills
-- ✅ **Frontend Development** - React, Modern CSS, JavaScript ES6+
+- 🔄 **Frontend Development** - React, Modern CSS, JavaScript ES6+
 - ⏳ **Backend Development** - Node.js, Express, REST APIs
 - ⏳ **Database Management** - MongoDB, Schema Design, Queries
 - ⏳ **Authentication** - JWT, Sessions, Security Best Practices
@@ -256,23 +265,23 @@ By the end of this challenge, I will have mastered:
 - ⏳ **DevOps Basics** - Git, CI/CD, Cloud Deployment
 
 ### Professional Skills
-- ⏳ Daily coding discipline and consistency
-- ⏳ Problem-solving and debugging
-- ⏳ Documentation and technical writing
-- ⏳ Project planning and time management
-- ⏳ Portfolio building and personal branding
+- ✅ Daily coding discipline and consistency
+- ✅ Problem-solving and debugging
+- ✅ Documentation and technical writing
+- 🔄 Project planning and time management
+- 🔄 Portfolio building and personal branding
 
 ### Career Readiness
-- 📁 **60 live projects** in portfolio
-- 🎯 **250+ technical skills** acquired
+- 📁 **4/60 live projects** in portfolio
+- 🎯 **20+ technical skills** acquired so far
 - 🚀 **Production deployment** experience
-- 💼 **Job-ready** for Full Stack Developer roles
+- 💼 **Building towards** Full Stack Developer readiness
 
 ---
 
 ## 📈 Weekly Milestones
 
-- [x] **Week 1** - Complete Days 1-7 (Frontend Basics)
+- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 4/7 ✅
 - [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend)
 - [ ] **Week 3** - Complete Days 15-21 (Backend Introduction)
 - [ ] **Week 4** - Complete Days 22-28 (Backend APIs)
@@ -312,15 +321,16 @@ This project is open source and available under the [MIT License](LICENSE).
 
 | Metric | Count |
 |--------|-------|
-| **Days Completed** | 3/60 |
-| **Projects Deployed** | 3 |
-| **Technologies Used** | 3+ |
-| **Lines of Code Written** | 500+ |
-| **Git Commits** | 5+ |
+| **Days Completed** | 4/60 |
+| **Projects Deployed** | 4 |
+| **Technologies Used** | 5+ |
+| **Lines of Code Written** | 2,000+ |
+| **Git Commits** | 15+ |
 | **Stack Overflow Visits** | Too many to count 😅 |
-| **Coffee Consumed** | ☕☕ |
-| **Bugs Fixed** | 10+ |
-| **Skills Acquired** | 15+ |
+| **Coffee Consumed** | ☕☕☕ |
+| **Bugs Fixed** | 25+ |
+| **Skills Acquired** | 30+ |
+| **Markdown Files Parsed** | Infinite ∞ |
 
 
 
@@ -330,6 +340,8 @@ This project is open source and available under the [MIT License](LICENSE).
 > "The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie
 
 > "Code is like humor. When you have to explain it, it's bad." - Cory House
+
+> "First, solve the problem. Then, write the code." - John Johnson
 
 **My Mantra:** *One day at a time. One project at a time. One skill at a time.* 💪
 
