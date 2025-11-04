@@ -4,7 +4,7 @@
 Build a real-time Markdown editor with instant preview, allowing users to write Markdown on the left and see beautifully formatted HTML on the right instantly.
 
 ## 🚀 Live Demo
-**[View Live Demo](https://60-days-60-projets-markdown-live-pr.vercel.app/)** _(Replace with actual URL after deployment)_
+**[View Live Demo](https://60-days-60-projets-markdown-live-pr.vercel.app/)**
 
 ## 🛠️ Tech Stack
 - React 18 (useState, useEffect)
