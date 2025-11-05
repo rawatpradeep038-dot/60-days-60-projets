@@ -5,7 +5,7 @@ A structured 60-day journey to master Full Stack Development by building 60 uniq
 
 **Start Date:** November 1, 2025  
 **End Date:** December 31, 2025  
-**Current Day:** 4/60
+**Current Day:** 5/60
 
 ---
 
@@ -73,7 +73,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 - API Integration
 - Browser APIs (Canvas, Audio, File handling)
 
-**Progress:** 4/15 Projects Completed ✅
+**Progress:** 5/15 Projects Completed ✅
 
 ---
 
@@ -152,7 +152,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ```
 ┌─────────────────────────────────────────────────┐
 │  Phase 1: Frontend Mastery                      │
-│  [▓▓▓▓░░░░░░░░░░░░░░░░] 4/15 (26.7%)          │
+│  [▓▓▓▓▓▓░░░░░░░░░░░░░░] 5/15 (33.3%)          │
 │                                                  │
 │  Phase 2: Backend Foundations                   │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/15 (0%)              │
@@ -163,7 +163,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │  Phase 4: Full Stack Production                 │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/20 (0%)              │
 │                                                  │
-│  Overall Challenge Progress: 4/60 (6.7%)        │
+│  Overall Challenge Progress: 5/60 (8.3%)        │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -178,22 +178,32 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 **Learned:** Modern UI trends, React useState, Neumorphic design
 
 ---
+
 ### **Day 02: Pomodoro Timer with Analytics** ✅
 **Live Demo:** [View Project](https://day-02-pomodoro-timer.vercel.app)  
 **Tech:** React, CSS3 Animations  
 **Learned:** useEffect hook, Component organization, CSS animations, Glassmorphism
 
 ---
+
 ### **Day 03: Color Palette Generator** ✅
 **Live Demo:** [View Project](https://60-days-60-projets-pallete-generato.vercel.app/)  
 **Tech:** React (useState), Canvas API, CSS3 (Animations, Glassmorphism, Floating Shapes), JavaScript ES6+  
 **Learned:** File Handling APIs, Advanced React Patterns, Color Theory & Algorithms, Canvas API Mastery
 
 ---
+
 ### **Day 04: Markdown Live Preview Editor** ✅
 **Live Demo:** [View Project](https://60-days-60-projets-markdown-live-pr.vercel.app/)   
 **Tech:** React (useState, useEffect), Marked.js, DOMPurify, LocalStorage API, CSS3  
 **Learned:** Markdown parsing, XSS prevention, File operations (Blob, Download), Clipboard API, Split-pane layouts, Theme switching
+
+---
+
+### **Day 05: Keyboard Sound Simulator** ✅
+**Live Demo:** [View Project](https://day-05-keyboard-sound-simulator.vercel.app/)  
+**Tech:** React (useState, useEffect, useCallback), Web Audio API, CSS3 (Floating Animations, Wave Effects)  
+**Learned:** Web Audio API, Oscillator nodes, Keyboard events, Sound synthesis, Memory leak prevention, Staggered CSS animations
 
 ---
 
@@ -231,7 +241,8 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │   ├── day-02-pomodoro-analytics/          ✅
 │   ├── day-03-color-palette-generator/     ✅
 │   ├── day-04-markdown-live-preview/       ✅
-│   └── ... (11 more projects)
+│   ├── day-05-keyboard-sound-simulator/    ✅
+│   └── ... (10 more projects)
 │
 ├── phase-2-backend/
 │   ├── day-16-url-shortener-api/           ⏳
@@ -272,8 +283,8 @@ By the end of this challenge, I will have mastered:
 - 🔄 Portfolio building and personal branding
 
 ### Career Readiness
-- 📁 **4/60 live projects** in portfolio
-- 🎯 **20+ technical skills** acquired so far
+- 📁 **5/60 live projects** in portfolio
+- 🎯 **25+ technical skills** acquired so far
 - 🚀 **Production deployment** experience
 - 💼 **Building towards** Full Stack Developer readiness
 
@@ -281,7 +292,7 @@ By the end of this challenge, I will have mastered:
 
 ## 📈 Weekly Milestones
 
-- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 4/7 ✅
+- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 5/7 ✅
 - [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend)
 - [ ] **Week 3** - Complete Days 15-21 (Backend Introduction)
 - [ ] **Week 4** - Complete Days 22-28 (Backend APIs)
@@ -321,16 +332,16 @@ This project is open source and available under the [MIT License](LICENSE).
 
 | Metric | Count |
 |--------|-------|
-| **Days Completed** | 4/60 |
-| **Projects Deployed** | 4 |
-| **Technologies Used** | 5+ |
-| **Lines of Code Written** | 2,000+ |
-| **Git Commits** | 15+ |
+| **Days Completed** | 5/60 |
+| **Projects Deployed** | 5 |
+| **Technologies Used** | 8+ |
+| **Lines of Code Written** | 3,500+ |
+| **Git Commits** | 25+ |
 | **Stack Overflow Visits** | Too many to count 😅 |
-| **Coffee Consumed** | ☕☕☕ |
-| **Bugs Fixed** | 25+ |
-| **Skills Acquired** | 30+ |
-| **Markdown Files Parsed** | Infinite ∞ |
+| **Coffee Consumed** | ☕☕☕☕ |
+| **Bugs Fixed** | 35+ |
+| **Skills Acquired** | 40+ |
+| **Sounds Generated** | 🔊 Infinite ∞ |
 
 
 
