@@ -4,7 +4,7 @@
 Build an interactive keyboard sound simulator that generates mechanical keyboard sounds in real-time as you type, with multiple sound profiles, visual feedback, and typing statistics.
 
 ## 🚀 Live Demo
-**[View Live Demo](https://day-05-keyboard-sound-simulator.vercel.app/)** _(Replace with actual URL after deployment)_
+**[View Live Demo](https://day-05-keyboard-sound-simulator.vercel.app/)** 
 
 ## 🛠️ Tech Stack
 - React 18 (useState, useEffect, useCallback)
