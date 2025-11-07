@@ -87,4 +87,4 @@ function PropertyControls({ animation, onUpdate }) {
   );
 }
 
-export default PropertyControls;
+export default PropertyControls;s
