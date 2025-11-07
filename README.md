@@ -216,7 +216,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ---
 
 ### **Day 07: Habit Streak Tracker** ✅
-**Live Demo:** [View Project](#)  
+**Live Demo:** [View Project](https://day-07-habit-streak-tracker.vercel.app/)  
 **Tech:** React (useState, useEffect), LocalStorage API, CSS3 (Grid, Gradients), JavaScript ES6+  
 **Learned:** LocalStorage persistence, Streak algorithms, Date manipulation, Calendar UI, Component architecture, Data persistence patterns
 

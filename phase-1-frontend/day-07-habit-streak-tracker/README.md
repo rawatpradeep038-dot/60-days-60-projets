@@ -4,7 +4,7 @@
 Build a beautiful habit tracking application that helps users build lasting habits through visual streak tracking, daily check-ins, and motivational feedback.
 
 ## 🚀 Live Demo
-**[View Live Demo](#)** *(Add your deployment link here)*
+**[View Live Demo](https://day-07-habit-streak-tracker.vercel.app/)** 
 
 ## 🛠️ Tech Stack
 - React 18 (useState, useEffect hooks)
@@ -500,7 +500,7 @@ const completionRate = totalHabits > 0
 
 ## 🔗 Links
 
-- **Live Demo**: *(Add your link)*
+- **Live Demo**: *[LINK](https://day-07-habit-streak-tracker.vercel.app/)*
 - **GitHub Repo**: https://github.com/rawatpradeep038-dot/60-days-60-projects
 - **Day 06 Project**: ../day-06-css-animation-playground
 - **Day 08 Project**: ../day-08-[next-project]
