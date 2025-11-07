@@ -5,7 +5,7 @@ A structured 60-day journey to master Full Stack Development by building 60 uniq
 
 **Start Date:** November 1, 2025  
 **End Date:** December 31, 2025  
-**Current Day:** 5/60
+**Current Day:** 7/60
 
 ---
 
@@ -72,8 +72,9 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 - Responsive Design & CSS Animations
 - API Integration
 - Browser APIs (Canvas, Audio, File handling)
+- LocalStorage & Data Persistence
 
-**Progress:** 5/15 Projects Completed ✅
+**Progress:** 7/15 Projects Completed ✅
 
 ---
 
@@ -152,7 +153,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ```
 ┌─────────────────────────────────────────────────┐
 │  Phase 1: Frontend Mastery                      │
-│  [▓▓▓▓▓▓░░░░░░░░░░░░░░] 5/15 (33.3%)          │
+│  [▓▓▓▓▓▓▓▓▓░░░░░░░░░░░] 7/15 (46.7%)          │
 │                                                  │
 │  Phase 2: Backend Foundations                   │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/15 (0%)              │
@@ -163,7 +164,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │  Phase 4: Full Stack Production                 │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/20 (0%)              │
 │                                                  │
-│  Overall Challenge Progress: 5/60 (8.3%)        │
+│  Overall Challenge Progress: 7/60 (11.7%)       │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -207,6 +208,20 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 
 ---
 
+### **Day 06: CSS Animation Playground** ✅
+**Live Demo:** [View Project](https://day-06-css-animation-playground.vercel.app/)  
+**Tech:** React, Vite, CSS3, JavaScript ES6+  
+**Learned:** Vite build tool, Dynamic CSS generation, @keyframes, Transform properties, Cubic-bezier curves, Glassmorphism, Floating animations
+
+---
+
+### **Day 07: Habit Streak Tracker** ✅
+**Live Demo:** [View Project](#)  
+**Tech:** React (useState, useEffect), LocalStorage API, CSS3 (Grid, Gradients), JavaScript ES6+  
+**Learned:** LocalStorage persistence, Streak algorithms, Date manipulation, Calendar UI, Component architecture, Data persistence patterns
+
+---
+
 *More projects will appear here as I complete them...*
 
 ---
@@ -242,7 +257,9 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │   ├── day-03-color-palette-generator/     ✅
 │   ├── day-04-markdown-live-preview/       ✅
 │   ├── day-05-keyboard-sound-simulator/    ✅
-│   └── ... (10 more projects)
+│   ├── day-06-css-animation-playground/    ✅
+│   ├── day-07-habit-streak-tracker/        ✅
+│   └── ... (8 more projects)
 │
 ├── phase-2-backend/
 │   ├── day-16-url-shortener-api/           ⏳
@@ -283,8 +300,8 @@ By the end of this challenge, I will have mastered:
 - 🔄 Portfolio building and personal branding
 
 ### Career Readiness
-- 📁 **5/60 live projects** in portfolio
-- 🎯 **25+ technical skills** acquired so far
+- 📁 **7/60 live projects** in portfolio
+- 🎯 **30+ technical skills** acquired so far
 - 🚀 **Production deployment** experience
 - 💼 **Building towards** Full Stack Developer readiness
 
@@ -292,7 +309,7 @@ By the end of this challenge, I will have mastered:
 
 ## 📈 Weekly Milestones
 
-- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 5/7 ✅
+- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 7/7 ✅
 - [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend)
 - [ ] **Week 3** - Complete Days 15-21 (Backend Introduction)
 - [ ] **Week 4** - Complete Days 22-28 (Backend APIs)
@@ -302,6 +319,7 @@ By the end of this challenge, I will have mastered:
 - [ ] **Week 8** - Complete Days 50-56 (Production Apps)
 - [ ] **Week 9** - Complete Days 57-60 (Final Projects + Reflection)
 
+---
 
 ## 🔗 Connect & Follow My Journey
 
@@ -332,19 +350,19 @@ This project is open source and available under the [MIT License](LICENSE).
 
 | Metric | Count |
 |--------|-------|
-| **Days Completed** | 5/60 |
-| **Projects Deployed** | 5 |
-| **Technologies Used** | 8+ |
-| **Lines of Code Written** | 3,500+ |
-| **Git Commits** | 25+ |
+| **Days Completed** | 7/60 |
+| **Projects Deployed** | 7 |
+| **Technologies Used** | 10+ |
+| **Lines of Code Written** | 5,000+ |
+| **Git Commits** | 35+ |
 | **Stack Overflow Visits** | Too many to count 😅 |
-| **Coffee Consumed** | ☕☕☕☕ |
-| **Bugs Fixed** | 35+ |
-| **Skills Acquired** | 40+ |
-| **Sounds Generated** | 🔊 Infinite ∞ |
+| **Coffee Consumed** | ☕☕☕☕☕☕☕ |
+| **Bugs Fixed** | 50+ |
+| **Skills Acquired** | 50+ |
+| **Habits Tracked** | 🔥 Starting today! |
+| **Streaks Built** | 7 days coding 💪 |
 
-
-
+---
 
 ## 💡 Motivational Corner
 
@@ -354,6 +372,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 > "First, solve the problem. Then, write the code." - John Johnson
 
+> "We are what we repeatedly do. Excellence, then, is not an act, but a habit." - Aristotle
+
 **My Mantra:** *One day at a time. One project at a time. One skill at a time.* 💪
 
 ---
@@ -362,6 +382,39 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **💬 Doing a similar challenge? Drop your GitHub username - let's motivate each other!**
 
-
+---
 
 **🚀 Let's code together and build something amazing! The journey of 60 projects begins with a single commit...**
+
+---
+
+## 🎉 Week 1 Complete! 🎉
+
+**Achievement Unlocked:** First week of consistent daily coding!
+
+**7 Projects Built:**
+1. ✅ Neumorphic Calculator
+2. ✅ Pomodoro Timer
+3. ✅ Color Palette Generator
+4. ✅ Markdown Editor
+5. ✅ Keyboard Sound Simulator
+6. ✅ CSS Animation Playground
+7. ✅ Habit Streak Tracker
+
+**Key Learnings:**
+- React hooks mastery (useState, useEffect, useCallback)
+- Browser APIs (Canvas, Audio, LocalStorage, Clipboard)
+- CSS advanced techniques (Animations, Gradients, Grid, Flexbox)
+- Date manipulation and algorithms
+- Build tools (Create React App, Vite)
+- Data persistence patterns
+
+**Next Week Goals:**
+- Start building more complex interactive apps
+- Explore charts/data visualization
+- Experiment with third-party libraries
+- Build gaming/entertainment projects
+
+**Motivation Level:** 🔥🔥🔥 (On fire!)
+
+*Stay tuned for Week 2...*
