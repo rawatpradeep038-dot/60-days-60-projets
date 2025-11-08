@@ -5,7 +5,7 @@ A structured 60-day journey to master Full Stack Development by building 60 uniq
 
 **Start Date:** November 1, 2025  
 **End Date:** December 31, 2025  
-**Current Day:** 7/60
+**Current Day:** 8/60
 
 ---
 
@@ -153,7 +153,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ```
 ┌─────────────────────────────────────────────────┐
 │  Phase 1: Frontend Mastery                      │
-│  [▓▓▓▓▓▓▓▓▓░░░░░░░░░░░] 7/15 (46.7%)          │
+│  [▓▓▓▓▓░░░░░░░░░░░░░░] 8/15 (53.3%)          │
 │                                                  │
 │  Phase 2: Backend Foundations                   │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/15 (0%)              │
@@ -164,7 +164,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │  Phase 4: Full Stack Production                 │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/20 (0%)              │
 │                                                  │
-│  Overall Challenge Progress: 7/60 (11.7%)       │
+│  Overall Challenge Progress: 8/60 (13.3%)       │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -222,6 +222,13 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 
 ---
 
+### **Day 08: Expense Splitter Calculator** ✅
+**Live Demo:** [View Project](https://day-08-expense-splitter.vercel.app)  
+**Tech:** React, CSS3  
+**Learned:** Complex calculations, Settlement algorithms, Clean minimal design
+
+---
+
 *More projects will appear here as I complete them...*
 
 ---
@@ -259,7 +266,8 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │   ├── day-05-keyboard-sound-simulator/    ✅
 │   ├── day-06-css-animation-playground/    ✅
 │   ├── day-07-habit-streak-tracker/        ✅
-│   └── ... (8 more projects)
+│   ├── day-08-expense-splitter/            ✅
+│   └── ... (7 more projects)
 │
 ├── phase-2-backend/
 │   ├── day-16-url-shortener-api/           ⏳
@@ -273,8 +281,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │   ├── day-41-job-tracker/                 ⏳
 │   └── ... (19 more projects)
 │
-└── README.md 
-```
+└── README.md (this file)
 
 **Legend:** ✅ Completed | 🚧 In Progress | ⏳ Upcoming
 
@@ -310,7 +317,7 @@ By the end of this challenge, I will have mastered:
 ## 📈 Weekly Milestones
 
 - [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 7/7 ✅
-- [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend)
+- [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend) - 1/7
 - [ ] **Week 3** - Complete Days 15-21 (Backend Introduction)
 - [ ] **Week 4** - Complete Days 22-28 (Backend APIs)
 - [ ] **Week 5** - Complete Days 29-35 (Database Integration)
