@@ -5,7 +5,7 @@ A structured 60-day journey to master Full Stack Development by building 60 uniq
 
 **Start Date:** November 1, 2025  
 **End Date:** December 31, 2025  
-**Current Day:** 8/60
+**Current Day:** 9/60
 
 ---
 
@@ -74,7 +74,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 - Browser APIs (Canvas, Audio, File handling)
 - LocalStorage & Data Persistence
 
-**Progress:** 7/15 Projects Completed ✅
+**Progress:** 9/15 Projects Completed ✅
 
 ---
 
@@ -153,7 +153,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ```
 ┌─────────────────────────────────────────────────┐
 │  Phase 1: Frontend Mastery                      │
-│  [▓▓▓▓▓░░░░░░░░░░░░░░] 8/15 (53.3%)          │
+│  [▓▓▓▓▓▓░░░░░░░░░░░░░] 9/15 (60%)          │
 │                                                  │
 │  Phase 2: Backend Foundations                   │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/15 (0%)              │
@@ -164,7 +164,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │  Phase 4: Full Stack Production                 │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/20 (0%)              │
 │                                                  │
-│  Overall Challenge Progress: 8/60 (13.3%)       │
+│  Overall Challenge Progress: 9/60 (15%)       │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -229,6 +229,13 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 
 ---
 
+### **Day 09: Typing Speed Test** ✅
+**Live Demo:** [View Project](https://day-09-typing-speed-test.vercel.app)  
+**Tech:** React (Vite), CSS3  
+**Learned:** Real-time input tracking, WPM algorithms, Timer management
+
+---
+
 *More projects will appear here as I complete them...*
 
 ---
@@ -267,7 +274,8 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │   ├── day-06-css-animation-playground/    ✅
 │   ├── day-07-habit-streak-tracker/        ✅
 │   ├── day-08-expense-splitter/            ✅
-│   └── ... (7 more projects)
+│   ├── day-09-typing-speed-test/           ✅
+│   └── ... (6 more projects)
 │
 ├── phase-2-backend/
 │   ├── day-16-url-shortener-api/           ⏳
