@@ -236,6 +236,13 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 
 ---
 
+### **Day 10: Music Playlist Organizer** ✅
+**Live Demo:** [View Project](https://day-10-music-playlist-organizer.vercel.app)  
+**Tech:** React, Vite, DnD Kit  
+**Learned:** Drag & drop with DnD Kit, BPM analysis, Sortable lists, Short CSS design
+
+---
+
 *More projects will appear here as I complete them...*
 
 ---
@@ -275,7 +282,8 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │   ├── day-07-habit-streak-tracker/        ✅
 │   ├── day-08-expense-splitter/            ✅
 │   ├── day-09-typing-speed-test/           ✅
-│   └── ... (6 more projects)
+|   ├── day-10-music-playlist-organizer/    ✅
+│   └── ... (5 more projects)
 │
 ├── phase-2-backend/
 │   ├── day-16-url-shortener-api/           ⏳
@@ -315,7 +323,7 @@ By the end of this challenge, I will have mastered:
 - 🔄 Portfolio building and personal branding
 
 ### Career Readiness
-- 📁 **7/60 live projects** in portfolio
+- 📁 **10/60 live projects** in portfolio
 - 🎯 **30+ technical skills** acquired so far
 - 🚀 **Production deployment** experience
 - 💼 **Building towards** Full Stack Developer readiness
@@ -324,8 +332,8 @@ By the end of this challenge, I will have mastered:
 
 ## 📈 Weekly Milestones
 
-- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 7/7 ✅
-- [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend) - 1/7
+- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 10/7 ✅
+- [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend) - 3/7
 - [ ] **Week 3** - Complete Days 15-21 (Backend Introduction)
 - [ ] **Week 4** - Complete Days 22-28 (Backend APIs)
 - [ ] **Week 5** - Complete Days 29-35 (Database Integration)
@@ -365,8 +373,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 | Metric | Count |
 |--------|-------|
-| **Days Completed** | 7/60 |
-| **Projects Deployed** | 7 |
+| **Days Completed** | 10/60 |
+| **Projects Deployed** | 10 |
 | **Technologies Used** | 10+ |
 | **Lines of Code Written** | 5,000+ |
 | **Git Commits** | 35+ |
@@ -375,7 +383,7 @@ This project is open source and available under the [MIT License](LICENSE).
 | **Bugs Fixed** | 50+ |
 | **Skills Acquired** | 50+ |
 | **Habits Tracked** | 🔥 Starting today! |
-| **Streaks Built** | 7 days coding 💪 |
+| **Streaks Built** | 10 days coding 💪 |
 
 ---
 
