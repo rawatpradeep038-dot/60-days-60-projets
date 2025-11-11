@@ -5,7 +5,7 @@ A structured 60-day journey to master Full Stack Development by building 60 uniq
 
 **Start Date:** November 1, 2025  
 **End Date:** December 31, 2025  
-**Current Day:** 10/60
+**Current Day:** 11/60
 
 ---
 
@@ -74,7 +74,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 - Browser APIs (Canvas, Audio, File handling)
 - LocalStorage & Data Persistence
 
-**Progress:** 10/15 Projects Completed ✅
+**Progress:** 11/15 Projects Completed ✅
 
 ---
 
@@ -153,7 +153,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 ```
 ┌─────────────────────────────────────────────────┐
 │  Phase 1: Frontend Mastery                      │
-│  [▓▓▓▓▓▓▓░░░░░░░░░░░░░] 10/15 (66.7%)          │
+│  [▓▓▓▓▓▓▓░░░░░░░░░░░] 11/15 (73.3%)          │
 │                                                  │
 │  Phase 2: Backend Foundations                   │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/15 (0%)              │
@@ -164,7 +164,7 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │  Phase 4: Full Stack Production                 │
 │  [░░░░░░░░░░░░░░░░░░░░] 0/20 (0%)              │
 │                                                  │
-│  Overall Challenge Progress: 10/60 (16.7%)       │
+│  Overall Challenge Progress: 11/60 (18.3%)       │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -243,6 +243,13 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 
 ---
 
+### **Day 11: Music Playlist Organizer** ✅
+**Live Demo:** [View Project](https://day-11-music-playlist.vercel.app)  
+**Tech:** React (Vite), @dnd-kit, CSS3  
+**Learned:** Drag-and-drop, Glassmorphism, Advanced CSS animations
+
+---
+
 *More projects will appear here as I complete them...*
 
 ---
@@ -283,7 +290,8 @@ Transform from basics to production-ready full-stack developer in 60 days throug
 │   ├── day-08-expense-splitter/            ✅
 │   ├── day-09-typing-speed-test/           ✅
 |   ├── day-10-music-playlist-organizer/    ✅
-│   └── ... (5 more projects)
+|   ├── day-11-music-playlist-organizer/    ✅
+│   └── ... (4 more projects)
 │
 ├── phase-2-backend/
 │   ├── day-16-url-shortener-api/           ⏳
@@ -323,7 +331,7 @@ By the end of this challenge, I will have mastered:
 - 🔄 Portfolio building and personal branding
 
 ### Career Readiness
-- 📁 **10/60 live projects** in portfolio
+- 📁 **11/60 live projects** in portfolio
 - 🎯 **30+ technical skills** acquired so far
 - 🚀 **Production deployment** experience
 - 💼 **Building towards** Full Stack Developer readiness
@@ -332,8 +340,8 @@ By the end of this challenge, I will have mastered:
 
 ## 📈 Weekly Milestones
 
-- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 10/7 ✅
-- [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend) - 3/7
+- [x] **Week 1** - Complete Days 1-7 (Frontend Basics) - 11/7 ✅
+- [ ] **Week 2** - Complete Days 8-14 (Advanced Frontend) - 4/7
 - [ ] **Week 3** - Complete Days 15-21 (Backend Introduction)
 - [ ] **Week 4** - Complete Days 22-28 (Backend APIs)
 - [ ] **Week 5** - Complete Days 29-35 (Database Integration)
@@ -373,7 +381,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 | Metric | Count |
 |--------|-------|
-| **Days Completed** | 10/60 |
+| **Days Completed** | 11/60 |
 | **Projects Deployed** | 10 |
 | **Technologies Used** | 10+ |
 | **Lines of Code Written** | 5,000+ |
@@ -383,7 +391,7 @@ This project is open source and available under the [MIT License](LICENSE).
 | **Bugs Fixed** | 50+ |
 | **Skills Acquired** | 50+ |
 | **Habits Tracked** | 🔥 Starting today! |
-| **Streaks Built** | 10 days coding 💪 |
+| **Streaks Built** | 11 days coding 💪 |
 
 ---
 
